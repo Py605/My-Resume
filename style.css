@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+}
+/* Body Header*/
+#body-header{
+    height: 65vh;
+    width: 100%;
+    opacity: 0.9;
+    background-image: url(C:/Users/Priyanshu/Desktop/download2.jfif);
+    background-size: cover;
+    background-position: center;
+
+}
+/* Horizontal List for navigation */
+.list{
+    list-style: none;
+    padding-left: 0px;
+}
+.list li{
+    display: inline;
+    margin: 0px 38px 38px 0px;
+}
+.list li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.list li a:hover{
+    color: lightblue;
+    border-bottom:1px  solid white;
+    transition: color 0.8s;
+}
+.text-center {
+    text-align: center;
+}
+/* Name and Social Icons*/
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 20vh;
+}
+/* Horizontal List for social media */
+.social-medias li{
+    display: inline;
+    margin: 0px 58px 58px 0px;
+
+}
+.social-medias {
+ text-align:center;
+}
+.social-medias li:hover{
+    color:  rgba(230, 196, 196);
+    border-bottom:1px  solid white;
+}
+.social-medias li a img {
+    width: 2rem;
+    padding: 8px;
+}
