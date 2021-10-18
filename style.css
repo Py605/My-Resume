@@ -71,7 +71,6 @@ body{
     margin: auto;
     margin-top: -17vh;
 }
-
 #my-image img {
     height: 100%;
     width: 100%;
@@ -79,8 +78,6 @@ body{
     border: 3px solid white;
     box-shadow: 1px 1px 10px 2px lightgrey;
 }
-
-
 #about-para {
     padding: 10px;
     width: 70%;
@@ -90,19 +87,160 @@ body{
     font-size: 1.1rem;
     margin: auto;
 }
-
 .text-highlight {
     color: #2857a4;
     font-weight: 600;
 }
-#section{
+section{
     width: 100%;
     display: flex;
+    height: 70vh;
     flex-direction: column;
 }
 section:nth-child(2n){
-    background-color: gray;
+    background-color: #9e9b9b29;
 }
-section:nth-child(n){
+section:nth-child(2n+1){
     background-color: white;
+}
+
+#container {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+}
+
+#section-heading  {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#section-heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+#div1 {
+    
+    color: #0e02b8;
+}
+
+#div2 {
+    background-color: #df8eff;
+    
+}
+
+#div3 {
+
+    background-color: #91dcff;
+    
+}
+#div4 {
+
+    background-color: #d3e5ee;
+    
+}
+/*Skills Section*/
+#skills-image {
+    height: 2rem;
+    width: 2rem    
+   
+}
+#skills-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin: 35px 0px 0px -40px;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+.skills-display {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.skill-progress {
+    width: 11rem;
+    height: 25px;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 1px 0px #b9b9b9 inset;
+    margin: 40px 0px 0px 55px;
+    overflow: hidden;
+     
+}
+
+.skill-progress  div {
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: #b9b9b9;
+}
+
+.skill-name span {
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+/*common color classes */
+.mb75px{
+    margin-left: 44%;
+    margin-bottom: 75px;
+    color: #2857a4;
+    font-size: 39px;
+}
+.text-highlight{
+    color: #2857a4;
+    font-weight: 600;
+}
+
+/* setting background-color */
+
+.mb-blue {
+    background-color: #2857a4;
+}
+
+.mb-orange {
+    background-color: #ec4d1c;
+}
+
+.mb-teal {
+    background-color: #0b8176;
+}
+
+.mb-light-purple {
+    background-color: #93738c;
+}
+.mb-brown{
+    background-color: brown;
+}
+
+
+/*Percentage Classes */
+
+.eighty-five-percent {
+    height: inherit;
+    width: 85%;
+}
+
+.eighty-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.sixty-percent {
+    height: inherit;
+    width: 60%;
+}
+.seventy-five-percent{
+    height: inherit;
+    width: 75%;
 }
