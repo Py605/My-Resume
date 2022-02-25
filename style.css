@@ -6,7 +6,7 @@ body{
     height: 65vh;
     width: 100%;
     opacity: 0.9;
-    background-image: url(C:/Users/Priyanshu/Desktop/bg1.jpeg);
+    background-image: url(imgs/nebula.jpg);
     background-size: cover;
     background-position: center;
 
@@ -17,7 +17,7 @@ body{
     text-align: center;
 }
 .list li{
-    font-size: 30px;
+    font-size: 35px;
     display: inline;
     margin: 0px 38px 38px 0px;
 }
@@ -38,7 +38,7 @@ body{
 #my-name {
     font-size: 3rem;
     letter-spacing: 0.1rem;
-    color:black;
+    color:rgb(115, 238, 228);
     font-weight: 700;
     margin-bottom: 0.5rem;
     margin-top: 20vh;
@@ -252,6 +252,14 @@ section:nth-child(2n+1){
 .seventy-five-percent{
     height: inherit;
     width: 75%;
+}
+.forty-percent {
+    height: inherit;
+    width: 40%;
+}
+.seventy-percent {
+    height: inherit;
+    width: 70%;
 }
 /* Contact Form */
 
